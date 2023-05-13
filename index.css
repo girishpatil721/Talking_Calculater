@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+    font-family: sans-serif;
+  
+}
+.container{
+    text-align: center;
+    margin-top: 23px;
+    height: 600px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-image:url('https://wallpaperaccess.com/full/295673.png');
+    background-size: cover;
+    align-items: center;
+}
+.calculator{
+    background-image: none;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 20px #396687,
+                       5px 5px 20px rgba(7, 1, 1, 0.16);
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+}
+.input{
+    grid-column: span 4;
+    height: 120px;
+    width: 270px;
+    background-color: #ecf3f0;
+    box-shadow: inset -3px -3px 15px #ffffff
+                 6px 6px 15px rgba(9, 1, 1, 0.16);
+    border: none;
+    border-radius: 30px;
+    color: black;
+    text-align: end;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.btn{
+    height: 48px;
+    width: 48px;
+    background-color: black;
+    box-shadow: inset -5px -5px 12px #d12f2f
+                7px 7px 17px rgba(0,0,0,.16);
+    border: none;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 13px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+#equal{
+    width: 170%;
+    border-radius: 40px;
+    box-shadow: inset -5px -5px 12px #d12f2f
+                7px 7px 17px rgba(0,0,0,.16);
+}
+
